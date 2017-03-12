@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Dan Hart</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <style>
+  body {
+      font: 20px Montserrat, sans-serif;
+      line-height: 1.8;
+      color: #f5f6f7;
+  }
+  p {font-size: 16px;
+	  margin: 45px;}
+  .margin {
+	  margin-bottom: 45px;
+  }
+  .bg-1 { 
+      background-color: #1abc9c; /* Green */
+      color: #ffffff;
+  }
+  .bg-2 { 
+      background-color: #474e5d; /* Dark Blue */
+      color: #ffffff;
+  }
+  .bg-3 { 
+      background-color: #ffffff; /* White */
+      color: #555555;
+  }
+  .bg-4 { 
+      background-color: #2f2f2f; /* Black Gray */
+      color: #fff;
+  }
+  .container-fluid {
+      padding-top: 70px;
+      padding-bottom: 70px;
+  }
+  .navbar {
+      padding-top: 15px;
+      padding-bottom: 15px;
+      border: 0;
+      border-radius: 0;
+      margin-bottom: 0;
+      font-size: 12px;
+      letter-spacing: 5px;
+  }
+  .navbar-nav  li a:hover {
+      color: #1abc9c !important;
+  }
+  .feature {
+	padding-left: 30%;
+	padding-right: 30%;	  
+  }
+  </style>
+</head>
+<body>
+<a name="top"></a>
+<!-- Navbar -->
+<nav class="navbar navbar-default">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="#">DAN HART</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#about">ABOUT</a></li>
+        <li><a href="#contact">CONTACT</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- First Container -->
+<div class="container-fluid bg-1 text-center">
+  <h3 class="margin">Who Am I?</h3>
+  <img src="me.jpg" class="img-responsive img-circle margin" style="display:inline" alt="Bird" width="350" height="350">
+  <h3>I'm a Software Developer</h3>
+</div>
+
+<!-- Second Container -->
+<a name="about"></a>
+<div class="container-fluid bg-2 text-center">
+  <h3 class="margin">About</h3>
+  <p>Hi, my name is Dan. I'm a Software Developer in beautiful St. Louis, Missouri. I love everything technology (especially Apple) and spend most of my time behind a monitor. I also dabble in photography, so if you're interested, you can visit my photo website by hitting the button below.</p>
+  <a href="http://photos.danhart.me/" class="btn btn-default btn-lg">
+    Dan Hart Photos
+  </a>
+</div>
+
+<!-- Third Container (Grid) -->
+<a name="contact"></a>
+<div class="container-fluid bg-3 text-center">    
+  <h3 class="margin">Contact</h3><br>
+  <div class="row">
+    <div class="col-sm-4">
+	  <img src="email.png" class="img-responsive margin feature" style="width:100%" alt="Image">
+      <p>The best way to contact me is via <a href="mailto:dhart94@gmail.com">email</a>. It would nice to recive an email that's not from a mailing list.</p>
+    </div>
+    <div class="col-sm-4"> 
+	<img src="twitter.png" class="img-responsive margin feature" style="width:100%" alt="Image">
+      <p>Feel free to tweet <a href="http://www.twitter.com/realDanHart">@realDanHart</a> pictures of dogs or inspirational quotes.</p>
+	</div>
+	<div class="col-sm-4"> 
+	<img src="in.png" class="img-responsive margin feature" style="width:100%" alt="Image">
+      <p>Be sure to endorse me for my main skills such as: Ballroom Dancing, Conga Line Planning, and smashing pumpkins.</p>
+  </div>
+  </div>
+</div>
+
+<!-- Footer -->
+<footer class="container-fluid bg-4 text-center">
+  <p>Created by Dan Hart in <script language="JavaScript" type="text/javascript">
+    now = new Date
+    theYear=now.getYear()
+    if (theYear < 1900)
+    theYear=theYear+1900
+    document.write(theYear)</script></p> 
+</footer>
+
+</body>
+</html>
+
