@@ -24,6 +24,10 @@
       background-color: #2f2f2f; /* Black Gray */
       color: #fff;
   }
+  .bg-5 {
+    background-color: #148DCC; /* blue? */
+    color: #fff;
+  }
   .container-fluid {
       padding-top: 70px;
       padding-bottom: 70px;
@@ -47,12 +51,16 @@
 
 .custom_div {
 overflow:hidden;
+height: 100%;
 }
 .custom_div div {
 min-height: 100%;
 padding: 10px;
 text-align: center;
+vertical-align: center;
 }
+
+
 #one {
 float:left;
 margin-right:0px;
@@ -61,7 +69,9 @@ width:50%;
 #two {
 overflow:hidden;
 width:auto;
-min-height: 50%;
+}
+#two h3 {
+  margin-top: 20%;
 }
 #three {
 margin-right:auto;
@@ -70,9 +80,17 @@ width: 100%;
 }
 
 @media screen and (max-width: 600px) {
-#one {
-    float: none;
-    margin-right:0;
-    width:auto;
+    #one {
+        float: none;
+        margin-right:0;
+        width:auto;
+    }
 }
+
+.row {
+  display: flex; /* equal height of the children */
+}
+
+.col {
+  flex: 1; /* additionally, equal width */
 }
