@@ -1,2 +1,2 @@
 # codedbydan.com
-Coded By Dan™ Website
+Coded By Dan Website
