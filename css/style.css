@@ -875,7 +875,7 @@ section {
   }
 
   header {
-    padding: 80px 0 50px;
+    padding: 120px 0 50px;
     min-height: 70vh;
   }
 
@@ -952,7 +952,7 @@ section {
   }
 
   header {
-    padding: 60px 0 40px;
+    padding: 100px 0 40px;
   }
 
   .skills-content {
@@ -1039,6 +1039,41 @@ section {
     width: 100px;
     height: 100px;
   }
+}
+
+/* Large Contact CTA */
+.contact-cta {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  background: var(--primary-color);
+  color: white;
+  padding: 25px 50px;
+  border-radius: 50px;
+  text-decoration: none;
+  font-size: 1.5rem;
+  font-weight: 600;
+  transition: all 0.3s ease;
+  box-shadow: 0 10px 30px var(--shadow);
+  border: 3px solid var(--primary-color);
+  min-width: 300px;
+}
+
+.contact-cta:hover,
+.contact-cta:focus {
+  background: var(--primary-dark);
+  border-color: var(--primary-dark);
+  transform: translateY(-3px);
+  box-shadow: 0 15px 40px var(--shadow);
+  color: white;
+  text-decoration: none;
+}
+
+.contact-icon {
+  width: 28px;
+  height: 28px;
+  flex-shrink: 0;
 }
 
 /* Enhanced focus styles for accessibility */
