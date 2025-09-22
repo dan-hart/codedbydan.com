@@ -33,3 +33,4 @@ This is a static website with no build process or dependencies. All files are se
 
 ### Deployment
 Site automatically deploys via GitHub Pages when changes are pushed to the `master` branch.
+- Never use javascript on this website
